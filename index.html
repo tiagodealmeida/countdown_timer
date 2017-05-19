@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <title>Countdown Timer - Tiago de Almeida</title>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="pagewrap">
+      <!-- header -->
+      <header>
+        <h1>Choose Your Setting</h1>
+      </header>
+
+      <!-- buttons -->
+      <div id="buttons">
+        <span class="myButtons" id="fiveMins">5</span>
+        <span class="myButtons" id="fifteenMins">15</span>
+        <span class="myButtons" id="thirtyMins">30</span>
+        <!-- <span class="myButtons" id="stopMins">Stop</span> -->
+      </div>
+
+      <!-- countdown -->
+      <div id="del-countdown">
+        <div id="clock"></div>
+        <div id="units">
+          <span>Days</span>
+          <span>Hours</span>
+          <span>Minutes</span>
+          <span>Seconds</span>
+        </div>
+      </div>
+
+      <!-- custom timer setting -->
+      <div id="customForm">
+        <form name="form1">
+          <input type="text" placeholder="set custom length" id="txt">
+          <span id="customMins">Set</span>
+        </form>
+      </div>
+
+      <!-- footer clock -->
+      <div id="endTime">
+        <h3>Your countdown will end at 00:00:00</h3>
+      </div>
+
+      <script src="js/script.js"></script>
+    </div><!-- pagewrap -->
+  </body>
+</html>
